@@ -1,7 +1,8 @@
 (function($){
   $(function(){
-
-    $('.sidenav').sidenav();
+    $('.sidenav').sidenav({
+      draggable: true
+    });
     $('.parallax').parallax();
     $('.scrollspy').scrollSpy({
       scrollOffset: 60,
