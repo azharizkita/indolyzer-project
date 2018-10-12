@@ -24,7 +24,7 @@ p {
 .parallax-container {
   min-height: 280px;
   line-height: 0;
-  height: 90hv;
+  height: 100hv;
   color: rgba(255,255,255,.9);
 }
   .parallax-container .section {
