@@ -32,13 +32,13 @@
                 <li id="layananL"><a class="sidenav-close" href="#layanan">SERVICES</a></li>
                 <li id="aboutL"><a class="sidenav-close" href="#about">ABOUT US</a></li>
                 <li id="penanggungjawabL"><a class="sidenav-close" href="#penanggungjawab">PENANGGUNG JAWAB</a></li>
-                <li id="galleryL"><a href="#gallery">GALLERY</a></li>
+                <li id="galleryL"><a class="sidenav-close" href="#gallery">GALLERY</a></li>
                 <li id="contactL"><a class="sidenav-close" href="#contact">CONTACT</a></li>
             </ul>
         </nav>
 
 
-        <div id="indolyzer" class="scrollspy parallax-container valign-wrapper" style="background-color: rgba(0, 0, 0, 0.9)">
+        <div id="indolyzer" class="scrollspy parallax-container valign-wrapper" style="background-color: rgba(0, 0, 0, 0.9); height: 100vh">
             <div class="section no-pad-bot" style="top: 20%">
                 <div class="container">
                     <div class="row center">
@@ -105,7 +105,7 @@
         </div>
         
         
-        <div id="about" class="scrollspy parallax-container valign-wrapper" style="background-color: rgba(0, 0, 0, 0.9)">
+        <div id="about" class="scrollspy parallax-container valign-wrapper" style="background-color: rgba(0, 0, 0, 0.9); height: 100vh">
             <div class="section no-pad-bot" style="top: 0">
                 <div class="container">
                     <div class="row center">
@@ -190,13 +190,16 @@
             </div>
         </div>
 
-        <div id="contact" class="scrollspy parallax-container valign-wrapper" style="background-color: rgba(0, 0, 0, 0.9)">
+        <div id="contact" class="scrollspy parallax-container valign-wrapper" style="background-color: rgba(0, 0, 0, 0.9); height: 100vh" >
             <div class="section no-pad-bot" style="top: 20%">
                 <div class="container">
                     <div class="row center">
                         <h4 id="contactInfo" class="fade-in-fwd header col s12 light" style="animation-play-state: paused">Kami senang bermitra dengan siapapun yang berkomitmen, jika tertarik untuk bermitra silakan hubungi kami.</h4>
                         <div id="blockDown" class="fade-in-fwd icon-block" style="animation-play-state: paused">
-                            <h2 id="downBeat" class="heartbeat white-text" style="animation-play-state: paused"><i class="material-icons">keyboard_arrow_down</i></h2>
+                            <a href="#contacts">
+                                <h2 id="downBeat" class="heartbeat white-text" style="animation-play-state: paused"><i class="material-icons">keyboard_arrow_down</i></h2>
+                            </a>
+                            
                         </div>
                     </div>
                 </div>
@@ -206,7 +209,7 @@
 
     </body>
     
-    <footer class="scrollspy page-footer orange darken-4">
+    <footer id="contacts" class="scrollspy page-footer orange darken-4">
         <div class="row">
 
             <a class="col s12 m4 center" href="mailto:adm@indolyzer.com">
@@ -233,7 +236,7 @@
 
         </div>
 
-        <div id="contacts" class="scrollspy footer-copyright">
+        <div class="scrollspy footer-copyright">
             <div class="container">
                 Made by <a class="brown-text text-lighten-3" href="https://github.com/azharizkita/">Azhari Rizkita Priyono</a>
             </div>
