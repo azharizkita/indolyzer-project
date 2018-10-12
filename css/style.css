@@ -16,14 +16,15 @@ p {
 }
 
 .sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
+  overflow: hidden;
+  position: fixed; 
+  top: 0; 
+  z-index: 10;
 }
 .parallax-container {
   min-height: 280px;
   line-height: 0;
-  height: 100vh;
+  height: 90hv;
   color: rgba(255,255,255,.9);
 }
   .parallax-container .section {
@@ -140,6 +141,18 @@ hr {
   border: 0;
   height: 1px;
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
+
+hr.style-one {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+hr.black{
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
 .slide-in-elliptic-top-fwd {
