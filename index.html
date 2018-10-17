@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <title>INDOLYZER</title>
         <link rel="icon" href="./assets/favicon.png">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link href="./css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
         <link href="./css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
@@ -13,7 +14,6 @@
     </head>
 
     <body>
-
         <nav class="white sticky" role="navigation">
             <div class="nav-wrapper" style="padding-left: 20px;">
                 <a id="logo-container" href="#indolyzer" class="brand-logo" style=" font-family: logoHead">INDOLYZER</a>
@@ -21,8 +21,10 @@
                     <li id="layananL"><a href="#layanan">SERVICES</a></li>
                     <li id="aboutL"><a href="#about">ABOUT US</a></li>
                     <li id="penanggungjawabL"><a href="#penanggungjawab">PENANGGUNG JAWAB</a></li>
+                    <li id="contactL"><a href="#client">OUR CLIENT</a></li>
                     <li id="galleryL"><a href="#gallery">GALLERY</a></li>
                     <li id="contactL"><a href="#contact">CONTACT</a></li>
+                    <li style="background-color: #e65100;" id="contactL"><a class="white-text" href="https://wj-anggara.blogspot.com/">TUTORIAL</a></li>
                 </ul>
                 <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             </div>
@@ -32,8 +34,10 @@
                 <li id="layananL"><a class="sidenav-close" href="#layanan">SERVICES</a></li>
                 <li id="aboutL"><a class="sidenav-close" href="#about">ABOUT US</a></li>
                 <li id="penanggungjawabL"><a class="sidenav-close" href="#penanggungjawab">PENANGGUNG JAWAB</a></li>
+                <li id="contactL"><a class="sidenav-close" href="#client">OUR CLIENT</a></li>
                 <li id="galleryL"><a class="sidenav-close" href="#gallery">GALLERY</a></li>
                 <li id="contactL"><a class="sidenav-close" href="#contact">CONTACT</a></li>
+                <li style="background-color: #e65100;" id="contactL"><a class="white-text" href="https://wj-anggara.blogspot.com/">TUTORIAL</a></li>
             </ul>
         </nav>
 
@@ -158,37 +162,181 @@
 
             </div>
         </div>
-        
-        <div id="gallery" class="scrollspy grey lighten-2">
-            <div class="section">
 
-            <div class="row">
-                <div class="col s12 center">
-                    <h3><i class="mdi-content-send brown-text"></i></h3>
-                    <h4>Gallery</h4>
-                    <p id="galleryText" class="center light text-focus-in" style="animation-play-state: paused">Dokumentasi aktivitas, kantor, dan produk INDOLYZER</p>
+        <div id="client" style="height: 100vh; background: rgb(230, 81, 0)" class="scrollspy">
+            <div class="section container">
+                
+                <div class="row">
+                    <div class="col s12 center">
+                        <h3><i class="mdi-content-send brown-text"></i></h3>
+                        <h4 class="white-text">Our Client</h4>
+                        <p id="motoCli" class="white-text center light text-focus-in hvr-grow" style="animation-play-state: paused">Bagi kami testimoni yang baik sebagai penyembangat, dan testimoni yang kurang baik sebagai masukan untuk terus memperbaiki kualitas layanan dan produk agar terus menjadi lebih baik.</p>
+                    </div>
                 </div>
-            </div>
 
-            <div class="container" style="height: 100vh;">
-                <div style="animation-play-state: paused" class="row scale-in-hor-center" id="containerGallery">
-                    <hr class="style-one">
-                    <table>
-                        <tr style="border: 0">
-                            <td class="center"><button id="officeButton" class="waves-effect waves-light btn grey lighten-4 black-text">Office</button></td>
-                            <td class="center"><button id="productButton" class="waves-effect waves-light btn grey lighten-4 black-text">Products</button></td>
-                            <td class="center"><button id="activitiesButton" class="waves-effect waves-light btn grey lighten-4 black-text">Activities</button></td>
-                        </tr>
-                    </table>
-                    <hr class="style-one">
+                <div class="row">
 
-                    <br>
-                    <div id="galleryContent" style="z-index: 30"></div>
+                    <div id="cli1" class="col s12 m4 slide-in-elliptic-top-fwd" style="padding: 1%; animation-play-state: paused">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="./assets/paralax2.jpg">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Client 1<i class="material-icons right">more_vert</i></span>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Client 1<i class="material-icons right">close</i></span>
+                                <p>Feedback client 3</p>
+                            </div>
+                        </div>
+                    </div>  
+
+                    <div id="cli2" class="col s12 m4 slide-in-elliptic-top-fwd" style="padding: 1%; animation-play-state: paused">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="./assets/paralax3.jpg">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Client 2<i class="material-icons right">more_vert</i></span>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Client 2<i class="material-icons right">close</i></span>
+                                <p>Feedback client 3</p>
+                            </div>
+                        </div>
+                    </div>  
+                    
+                    <div id="cli3" class="col s12 m4 slide-in-elliptic-top-fwd" style="padding: 1%; animation-play-state: paused">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="./assets/paralax1.jpg">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Client 3<i class="material-icons right">more_vert</i></span>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Client 3<i class="material-icons right">close</i></span>
+                                <p>Feedback client 3</p>
+                            </div>
+                        </div>
+                    </div>  
+
                 </div>
-            </div>
 
             </div>
         </div>
+
+            <div id="gallery" class="row scrollspy">
+                <div class="col s12 center">
+                    <h3><i class="mdi-content-send brown-text"></i></h3>
+                    <h4>Gallery</h4>
+                    <p id="galleryText" class="center light text-focus-in hvr-grow" style="animation-play-state: paused">Dokumentasi aktivitas, kantor, dan produk INDOLYZER</p>
+                </div>
+            </div>
+
+            <div id="galleryOffice" class="text-focus-in scrollspy row" style="animation-play-state: paused">
+                <hr class="style-one">
+                <div class="col s12 center">
+                    <h3><i class="mdi-content-send brown-text"></i></h3>
+                    <h5>Office</h5>
+                    <p id="galleryText" class="center light text-focus-in" style="animation-play-state: paused">Dokumentasi aktivitas, kantor, dan produk INDOLYZER</p>
+                </div>
+            </div>
+            <table id="galleryOfficeT" class="text-focus-in scrollspy" style="animation-play-state: paused">
+                <tr style="border: 0">
+                    <td class="center"><img style="object-fit: cover" width="250" height="150" class="modal-trigger" href="#office1" src="./assets/gallery/office/1.jpg"></td>
+                    <div id="office1" class="modal" style="width: fit-content; height: fit-content;">
+                        <img src="./assets/gallery/office/1.jpg">
+                    </div>
+                    <td class="center"><img style="object-fit: cover" width="250" height="150" class="modal-trigger" href="#office2" src="./assets/gallery/office/2.jpg"></td>
+                    <div id="office2" class="modal" style="width: fit-content; height: fit-content;">
+                        <img src="./assets/gallery/office/2.jpg">
+                    </div>
+                    <td class="center"><img style="object-fit: cover" width="250" height="150" class="modal-trigger" href="#office3" src="./assets/gallery/office/3.jpg"></td>
+                    <div id="office3" class="modal" style="width: fit-content; height: fit-content;">
+                        <img src="./assets/gallery/office/3.jpg">
+                    </div>
+                </tr>
+                <tr style="border: 0">
+                    <td class="center"><img style="object-fit: cover" width="250" height="150" class="modal-trigger" href="#office4" src="./assets/gallery/office/4.jpg"></td>
+                    <div id="office4" class="modal" style="width: fit-content; height: fit-content;">
+                        <img src="./assets/gallery/office/4.jpg">
+                    </div class="center">                    
+                    <td class="center"><img style="object-fit: cover" width="250" height="150" class="modal-trigger" href="#office5" src="./assets/gallery/office/5.jpg"></td>
+                    <div id="office5" class="modal" style="width: fit-content; height: fit-content;">
+                        <img src="./assets/gallery/office/5.jpg">
+                    </div>                    
+                    <td class="center"><img style="object-fit: cover" width="250" height="150" class="modal-trigger" href="#office6" src="./assets/gallery/office/6.jpg"></td>
+                    <div id="office6" class="modal" style="width: fit-content; height: fit-content;">
+                        <img src="./assets/gallery/office/6.jpg">
+                    </div>                
+                </tr>
+            </table>
+
+            <div id="galleryProduct" class="text-focus-in scrollspy row" style="animation-play-state: paused">
+                <hr class="style-one">
+                <div class="col s12 center">
+                    <h3><i class="mdi-content-send brown-text"></i></h3>
+                    <h5>Products</h5>
+                    <p id="galleryText" class="center light text-focus-in" style="animation-play-state: paused">Dokumentasi aktivitas, kantor, dan produk INDOLYZER</p>
+                </div>
+            </div>
+            <table id="galleryProductT" class="text-focus-in scrollspy" style="animation-play-state: paused">
+                <tr style="border: 0">
+                    <td class="center"><img style="object-fit: cover" width="250" height="150" class="modal-trigger" href="#products1" src="./assets/gallery/products/1.jpg"></td>
+                    <div id="products1" class="modal" style="width: fit-content; height: fit-content;">
+                        <img src="./assets/gallery/products/1.jpg">
+                    </div>
+                    <td class="center"><img style="object-fit: cover" width="250" height="150" class="modal-trigger" href="#products2" src="./assets/gallery/products/2.jpg"></td>
+                    <div id="products2" class="modal" style="width: fit-content; height: fit-content;">
+                        <img src="./assets/gallery/products/2.jpg">
+                    </div>
+                    <td class="center"><img style="object-fit: cover" width="250" height="150" class="modal-trigger" href="#products3" src="./assets/gallery/products/3.jpg"></td>
+                    <div id="products3" class="modal" style="width: fit-content; height: fit-content;">
+                        <img src="./assets/gallery/products/3.jpg">
+                    </div>
+                </tr>
+                <tr style="border: 0">
+                    <td class="center"><img style="object-fit: cover" width="250" height="150" class="modal-trigger" href="#products4" src="./assets/gallery/products/4.jpg"></td>
+                    <div id="products4" class="modal" style="width: fit-content; height: fit-content;">
+                        <img src="./assets/gallery/products/4.jpg">
+                    </div>                    
+                    <td class="center"><img style="object-fit: cover" width="250" height="150" class="modal-trigger" href="#products5" src="./assets/gallery/products/5.jpg"></td>
+                    <div id="products5" class="modal" style="width: fit-content; height: fit-content;">
+                        <img src="./assets/gallery/products/5.jpg">
+                    </div>                    
+                    <td class="center"><img style="object-fit: cover" width="250" height="150" class="modal-trigger" href="#products6" src="./assets/gallery/products/6.jpg"></td>
+                    <div id="products6" class="modal" style="width: fit-content; height: fit-content;">
+                        <img src="./assets/gallery/products/6.jpg">
+                    </div>                
+                </tr>
+            </table>
+
+            <div id="galleryActivities" class="text-focus-in scrollspy row" style="animation-play-state: paused">
+                <hr class="style-one">
+                <div class="col s12 center">
+                    <h3><i class="mdi-content-send brown-text"></i></h3>
+                    <h5>Activities</h5>
+                    <p id="galleryText" class="center light text-focus-in" style="animation-play-state: paused">Dokumentasi aktivitas, kantor, dan produk INDOLYZER</p>
+                </div>
+            </div>
+            <table id="galleryActivitiesT" class="text-focus-in scrollspy" style="animation-play-state: paused">
+                <tr style="border: 0">
+                    <td class="center"><img style="object-fit: cover" width="250" height="150" class="modal-trigger" href="#activities1" src="./assets/gallery/activities/1.jpg"></td>
+                    <div id="activities1" class="modal" style="width: fit-content; height: fit-content;">
+                        <img src="./assets/gallery/activities/1.jpg">
+                    </div>
+                    <td class="center"><img style="object-fit: cover" width="250" height="150" class="modal-trigger" href="#activities2" src="./assets/gallery/activities/2.jpg"></td>
+                    <div id="activities2" class="modal" style="width: fit-content; height: fit-content;">
+                        <img src="./assets/gallery/activities/2.jpg">
+                    </div>
+                    <td class="center"><img style="object-fit: cover" width="250" height="150" class="modal-trigger" href="#activities3" src="./assets/gallery/activities/3.jpg"></td>
+                    <div id="activities3" class="modal" style="width: fit-content; height: fit-content;">
+                        <img src="./assets/gallery/activities/3.jpg">
+                    </div>
+                </tr>
+            </table>
+                
 
         <div id="contact" class="scrollspy parallax-container valign-wrapper" style="background-color: rgba(0, 0, 0, 0.9); height: 100vh" >
             <div class="section no-pad-bot" style="top: 20%">
@@ -235,8 +383,13 @@
             </a>
 
         </div>
+        <hr >
+        <div class="center">
+            <a class="white-text" target="_blank" href="https://web.facebook.com/indolyzer/"><i class="fab fa-facebook-square fa-lg"></i></a>  
+            <a class="white-text" target="_blank" href="https://www.instagram.com/indolyzer/"><i class="fab fa-instagram fa-lg"></i></a> 
+        </div>
 
-        <div class="scrollspy footer-copyright">
+        <div class="center scrollspy footer-copyright">
             <div class="container">
                 Made by <a class="brown-text text-lighten-3" href="https://github.com/azharizkita/">Azhari Rizkita Priyono</a>
             </div>
